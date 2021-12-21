@@ -15,11 +15,14 @@
     "@storybook/addon-docs": "^6.5.0-alpha.4",
     "@storybook/addon-essentials": "^6.5.0-alpha.4",
     "@storybook/addon-links": "^6.5.0-alpha.4",
+    "@storybook/addon-storyshots": "next",
     "@storybook/web-components": "^6.5.0-alpha.4",
-    "babel-loader": "^8.2.3"
+    "babel-loader": "^8.2.3",
+    "jest": "^27.4.5"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "test": "jest"
   }
 }
